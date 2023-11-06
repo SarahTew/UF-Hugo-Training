@@ -11,7 +11,7 @@
 			{{$path := .Page.Params.pdf}}
 			<i class="fas fa-external-link-alt"></i><a target="_blank" href={{printf "../../pdf/%s" $path | urlize | absLangURL}}>Printable Recipe (PDF)</a>
 		</div>
-		<div class="row">
+		<div class="row reciperow">
 			<div class="col-recipe">
 				{{ .Content }}
 			</div>
